@@ -1,0 +1,33 @@
+[0.056s] Invoking command in '/home/user/ros2_ws/build/custom_nav2_planner_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_planner_plugin -- -j8 -l8
+[0.967s] [35m[1mConsolidate compiler generated dependencies of target straight_line_planner_core[0m
+[0.968s] [100%] Built target straight_line_planner_core
+[0.969s] Invoked command in '/home/user/ros2_ws/build/custom_nav2_planner_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_planner_plugin -- -j8 -l8
+[1.296s] Invoking command in '/home/user/ros2_ws/build/custom_nav2_planner_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_planner_plugin
+[1.306s] -- Install configuration: ""
+[1.307s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/straight_line_plugin_info.xml
+[1.308s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/lib/libstraight_line_planner_core.so
+[1.310s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/include/
+[1.310s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/include//custom_nav2_planner_plugin
+[1.311s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/include//custom_nav2_planner_plugin/straight_line_planner.hpp
+[1.311s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/library_path.sh
+[1.311s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/library_path.dsv
+[1.311s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/package_run_dependencies/custom_nav2_planner_plugin
+[1.312s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/parent_prefix_path/custom_nav2_planner_plugin
+[1.313s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/ament_prefix_path.sh
+[1.314s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/ament_prefix_path.dsv
+[1.314s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/path.sh
+[1.315s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/path.dsv
+[1.315s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.bash
+[1.316s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.sh
+[1.316s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.zsh
+[1.317s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.dsv
+[1.317s] -- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/package.dsv
+[1.320s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/packages/custom_nav2_planner_plugin
+[1.320s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/nav2_core__pluginlib__plugin/custom_nav2_planner_plugin
+[1.321s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.321s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.321s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.321s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/custom_nav2_planner_pluginConfig.cmake
+[1.321s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/custom_nav2_planner_pluginConfig-version.cmake
+[1.322s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/package.xml
+[1.334s] Invoked command in '/home/user/ros2_ws/build/custom_nav2_planner_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_planner_plugin

@@ -1,0 +1,4 @@
+Invoking command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_costmap_plugin -- -j8 -l8
+Invoked command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_costmap_plugin -- -j8 -l8
+Invoking command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_costmap_plugin
+Invoked command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_costmap_plugin

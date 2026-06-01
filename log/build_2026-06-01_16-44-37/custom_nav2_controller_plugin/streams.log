@@ -1,0 +1,63 @@
+[0.203s] Invoking command in '/home/user/ros2_ws/build/custom_nav2_controller_plugin': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_controller_plugin -- -j8 -l8
+[3.614s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.769s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[4.934s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.940s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.954s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.976s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.106s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.111s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.608s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.664s] -- Found nav2_costmap_2d: 1.1.6 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[9.237s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.923s] -- Found nav2_core: 1.1.6 (/opt/ros/humble/share/nav2_core/cmake)
+[16.316s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.415s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.417s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.417s] -- Configured cppcheck include dirs: /home/user/ros2_ws/src/custom_nav2_controller_plugin/include
+[16.417s] -- Configured cppcheck exclude dirs and/or files: 
+[16.419s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.419s] -- Configured cpplint exclude dirs and/or files: 
+[16.420s] -- Added test 'lint_cmake' to check CMake code style
+[16.422s] -- Added test 'uncrustify' to check C / C++ code style
+[16.422s] -- Configured uncrustify additional arguments: 
+[16.423s] -- Added test 'xmllint' to check XML markup files
+[16.428s] -- Configuring done
+[20.026s] -- Generating done
+[20.029s] -- Build files have been written to: /home/user/ros2_ws/build/custom_nav2_controller_plugin
+[20.079s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_pursuit_controller_plugin_core.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[51.855s] [100%] [32m[1mLinking CXX shared library libcustom_pursuit_controller_plugin_core.so[0m
+[53.654s] [100%] Built target custom_pursuit_controller_plugin_core
+[53.665s] Invoked command in '/home/user/ros2_ws/build/custom_nav2_controller_plugin' returned '0': _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_controller_plugin -- -j8 -l8
+[53.710s] Invoking command in '/home/user/ros2_ws/build/custom_nav2_controller_plugin': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_controller_plugin
+[53.718s] -- Install configuration: ""
+[53.718s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/lib/libcustom_pursuit_controller_plugin_core.so
+[53.721s] -- Set runtime path of "/home/user/ros2_ws/install/custom_nav2_controller_plugin/lib/libcustom_pursuit_controller_plugin_core.so" to ""
+[53.722s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/include/
+[53.722s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/include//custom_nav2_controller_plugin
+[53.722s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/include//custom_nav2_controller_plugin/regulated_pure_pursuit_controller.hpp
+[53.722s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/environment/library_path.sh
+[53.722s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/environment/library_path.dsv
+[53.723s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/regulated_pure_pursuit_controller_info.xml
+[53.723s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/ament_index/resource_index/package_run_dependencies/custom_nav2_controller_plugin
+[53.723s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/ament_index/resource_index/parent_prefix_path/custom_nav2_controller_plugin
+[53.723s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/environment/ament_prefix_path.sh
+[53.723s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/environment/ament_prefix_path.dsv
+[53.723s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/environment/path.sh
+[53.723s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/environment/path.dsv
+[53.723s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/local_setup.bash
+[53.723s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/local_setup.sh
+[53.723s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/local_setup.zsh
+[53.724s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/local_setup.dsv
+[53.724s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/package.dsv
+[53.724s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/ament_index/resource_index/packages/custom_nav2_controller_plugin
+[53.724s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/ament_index/resource_index/nav2_core__pluginlib__plugin/custom_nav2_controller_plugin
+[53.724s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.724s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[53.724s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.724s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/cmake/custom_nav2_controller_pluginConfig.cmake
+[53.725s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/cmake/custom_nav2_controller_pluginConfig-version.cmake
+[53.725s] -- Installing: /home/user/ros2_ws/install/custom_nav2_controller_plugin/share/custom_nav2_controller_plugin/package.xml
+[53.729s] Invoked command in '/home/user/ros2_ws/build/custom_nav2_controller_plugin' returned '0': _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_controller_plugin

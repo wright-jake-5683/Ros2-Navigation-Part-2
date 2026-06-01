@@ -1,0 +1,489 @@
+[0.000000] (-) TimerEvent: {}
+[0.000561] (custom_nav2_costmap_plugin) JobQueued: {'identifier': 'custom_nav2_costmap_plugin', 'dependencies': OrderedDict()}
+[0.000746] (custom_nav2_planner_plugin) JobQueued: {'identifier': 'custom_nav2_planner_plugin', 'dependencies': OrderedDict()}
+[0.001035] (localization_server) JobQueued: {'identifier': 'localization_server', 'dependencies': OrderedDict()}
+[0.001063] (map_server) JobQueued: {'identifier': 'map_server', 'dependencies': OrderedDict()}
+[0.001087] (nav2_new_features) JobQueued: {'identifier': 'nav2_new_features', 'dependencies': OrderedDict()}
+[0.001110] (path_planner_server) JobQueued: {'identifier': 'path_planner_server', 'dependencies': OrderedDict()}
+[0.001134] (custom_nav2_costmap_plugin) JobStarted: {'identifier': 'custom_nav2_costmap_plugin'}
+[0.021427] (custom_nav2_planner_plugin) JobStarted: {'identifier': 'custom_nav2_planner_plugin'}
+[0.027033] (localization_server) JobStarted: {'identifier': 'localization_server'}
+[0.036725] (map_server) JobStarted: {'identifier': 'map_server'}
+[0.045521] (nav2_new_features) JobStarted: {'identifier': 'nav2_new_features'}
+[0.054417] (path_planner_server) JobStarted: {'identifier': 'path_planner_server'}
+[0.065513] (custom_nav2_costmap_plugin) JobProgress: {'identifier': 'custom_nav2_costmap_plugin', 'progress': 'cmake'}
+[0.066523] (custom_nav2_costmap_plugin) JobProgress: {'identifier': 'custom_nav2_costmap_plugin', 'progress': 'build'}
+[0.067274] (custom_nav2_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/custom_nav2_costmap_plugin', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/custom_nav2_costmap_plugin', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('PKG_CONFIG_PATH', ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/build/custom_nav2_costmap_plugin'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', 'True'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25137'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner'), ('SOURCE_ROS2_WS', ''), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.169026] (-) TimerEvent: {}
+[0.169235] (custom_nav2_planner_plugin) JobProgress: {'identifier': 'custom_nav2_planner_plugin', 'progress': 'cmake'}
+[0.170877] (custom_nav2_planner_plugin) JobProgress: {'identifier': 'custom_nav2_planner_plugin', 'progress': 'build'}
+[0.171034] (custom_nav2_planner_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/custom_nav2_planner_plugin', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/custom_nav2_planner_plugin', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('PKG_CONFIG_PATH', ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/build/custom_nav2_planner_plugin'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', 'True'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25137'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner'), ('SOURCE_ROS2_WS', ''), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.269129] (-) TimerEvent: {}
+[0.369399] (-) TimerEvent: {}
+[0.469692] (-) TimerEvent: {}
+[0.569956] (-) TimerEvent: {}
+[0.670218] (-) TimerEvent: {}
+[0.770496] (-) TimerEvent: {}
+[0.870873] (-) TimerEvent: {}
+[0.971202] (-) TimerEvent: {}
+[1.071524] (-) TimerEvent: {}
+[1.171851] (-) TimerEvent: {}
+[1.272856] (-) TimerEvent: {}
+[1.375891] (-) TimerEvent: {}
+[1.476266] (-) TimerEvent: {}
+[1.576645] (-) TimerEvent: {}
+[1.677016] (-) TimerEvent: {}
+[1.777360] (-) TimerEvent: {}
+[1.877729] (-) TimerEvent: {}
+[1.977996] (-) TimerEvent: {}
+[2.078260] (-) TimerEvent: {}
+[2.170779] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_custom_costmap_core\x1b[0m\n'}
+[2.170973] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_nav2_costmap_plugin_core\x1b[0m\n'}
+[2.178340] (-) TimerEvent: {}
+[2.278614] (-) TimerEvent: {}
+[2.378924] (-) TimerEvent: {}
+[2.479285] (-) TimerEvent: {}
+[2.579577] (-) TimerEvent: {}
+[2.679850] (-) TimerEvent: {}
+[2.780268] (-) TimerEvent: {}
+[2.880536] (-) TimerEvent: {}
+[2.980787] (-) TimerEvent: {}
+[3.081029] (-) TimerEvent: {}
+[3.181270] (-) TimerEvent: {}
+[3.216475] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.281353] (-) TimerEvent: {}
+[3.381611] (-) TimerEvent: {}
+[3.481870] (-) TimerEvent: {}
+[3.518774] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_costmap_core.dir/src/my_custom_costmap.cpp.o\x1b[0m\n'}
+[3.519790] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'[ 75%] Built target custom_nav2_costmap_plugin_core\n'}
+[3.582010] (-) TimerEvent: {}
+[3.601025] (nav2_new_features) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/nav2_new_features', 'build', '--build-base', '/home/user/ros2_ws/build/nav2_new_features/build', 'install', '--record', '/home/user/ros2_ws/build/nav2_new_features/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/nav2_new_features', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://1_simulation:11345', 'PKG_CONFIG_PATH': ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'ROBOT_HOSTNAME': '', 'PWD': '/home/user/ros2_ws/build/nav2_new_features', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CMAKE_PREFIX_PATH': ':/opt/ros/humble:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/nav2_new_features/prefix_override:/home/user/ros2_ws/install/nav2_new_features/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_simulation', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_simulation:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '0', 'SLOT_PREFIX': '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': 'True', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25137', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner', 'SOURCE_ROS2_WS': '', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}, 'shell': False}
+[3.612469] (path_planner_server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/path_planner_server', 'build', '--build-base', '/home/user/ros2_ws/build/path_planner_server/build', 'install', '--record', '/home/user/ros2_ws/build/path_planner_server/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://1_simulation:11345', 'PKG_CONFIG_PATH': ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'ROBOT_HOSTNAME': '', 'PWD': '/home/user/ros2_ws/build/path_planner_server', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CMAKE_PREFIX_PATH': ':/opt/ros/humble:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/path_planner_server/prefix_override:/home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_simulation', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_simulation:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '0', 'SLOT_PREFIX': '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': 'True', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25137', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner', 'SOURCE_ROS2_WS': '', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}, 'shell': False}
+[3.615932] (localization_server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/localization_server', 'build', '--build-base', '/home/user/ros2_ws/build/localization_server/build', 'install', '--record', '/home/user/ros2_ws/build/localization_server/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/nav2_pkgs/localization_server', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://1_simulation:11345', 'PKG_CONFIG_PATH': ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'ROBOT_HOSTNAME': '', 'PWD': '/home/user/ros2_ws/build/localization_server', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CMAKE_PREFIX_PATH': ':/opt/ros/humble:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/localization_server/prefix_override:/home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_simulation', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_simulation:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '0', 'SLOT_PREFIX': '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': 'True', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25137', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner', 'SOURCE_ROS2_WS': '', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}, 'shell': False}
+[3.629357] (map_server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/map_server', 'build', '--build-base', '/home/user/ros2_ws/build/map_server/build', 'install', '--record', '/home/user/ros2_ws/build/map_server/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/nav2_pkgs/map_server', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://1_simulation:11345', 'PKG_CONFIG_PATH': ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'ROBOT_HOSTNAME': '', 'PWD': '/home/user/ros2_ws/build/map_server', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CMAKE_PREFIX_PATH': ':/opt/ros/humble:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/map_server/prefix_override:/home/user/ros2_ws/install/map_server/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '1_simulation', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_simulation:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '0', 'SLOT_PREFIX': '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': 'True', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25137', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner', 'SOURCE_ROS2_WS': '', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}, 'shell': False}
+[3.682124] (-) TimerEvent: {}
+[3.782538] (-) TimerEvent: {}
+[3.882941] (-) TimerEvent: {}
+[3.891827] (path_planner_server) StdoutLine: {'line': b'running egg_info\n'}
+[3.892475] (path_planner_server) StdoutLine: {'line': b'writing ../../../build/path_planner_server/path_planner_server.egg-info/PKG-INFO\n'}
+[3.892734] (path_planner_server) StdoutLine: {'line': b'writing dependency_links to ../../../build/path_planner_server/path_planner_server.egg-info/dependency_links.txt\n'}
+[3.893697] (path_planner_server) StdoutLine: {'line': b'writing entry points to ../../../build/path_planner_server/path_planner_server.egg-info/entry_points.txt\n'}
+[3.894746] (path_planner_server) StdoutLine: {'line': b'writing requirements to ../../../build/path_planner_server/path_planner_server.egg-info/requires.txt\n'}
+[3.895713] (path_planner_server) StdoutLine: {'line': b'writing top-level names to ../../../build/path_planner_server/path_planner_server.egg-info/top_level.txt\n'}
+[3.899677] (path_planner_server) StdoutLine: {'line': b"reading manifest file '../../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'\n"}
+[3.901375] (path_planner_server) StdoutLine: {'line': b"writing manifest file '../../../build/path_planner_server/path_planner_server.egg-info/SOURCES.txt'\n"}
+[3.901576] (path_planner_server) StdoutLine: {'line': b'running build\n'}
+[3.901702] (path_planner_server) StdoutLine: {'line': b'running build_py\n'}
+[3.901895] (path_planner_server) StdoutLine: {'line': b'running install\n'}
+[3.902233] (path_planner_server) StdoutLine: {'line': b'running install_lib\n'}
+[3.903823] (path_planner_server) StdoutLine: {'line': b'running install_data\n'}
+[3.905351] (path_planner_server) StdoutLine: {'line': b'copying launch/pathplanner_straightlineplanner_plugin.launch.py -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/launch\n'}
+[3.905685] (path_planner_server) StdoutLine: {'line': b'creating /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config/straightline_planner\n'}
+[3.905892] (path_planner_server) StdoutLine: {'line': b'copying config/straightline_planner/planner_server.yaml -> /home/user/ros2_ws/install/path_planner_server/share/path_planner_server/config/straightline_planner\n'}
+[3.906012] (path_planner_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.907642] (path_planner_server) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.908066] (path_planner_server) StdoutLine: {'line': b'Copying ../../../build/path_planner_server/path_planner_server.egg-info to /home/user/ros2_ws/install/path_planner_server/lib/python3.10/site-packages/path_planner_server-0.0.0-py3.10.egg-info\n'}
+[3.909258] (path_planner_server) StdoutLine: {'line': b'running install_scripts\n'}
+[3.916506] (nav2_new_features) StdoutLine: {'line': b'running egg_info\n'}
+[3.917234] (nav2_new_features) StdoutLine: {'line': b'writing ../build/nav2_new_features/nav2_new_features.egg-info/PKG-INFO\n'}
+[3.917435] (nav2_new_features) StdoutLine: {'line': b'writing dependency_links to ../build/nav2_new_features/nav2_new_features.egg-info/dependency_links.txt\n'}
+[3.918321] (localization_server) StdoutLine: {'line': b'running egg_info\n'}
+[3.918450] (nav2_new_features) StdoutLine: {'line': b'writing entry points to ../build/nav2_new_features/nav2_new_features.egg-info/entry_points.txt\n'}
+[3.919205] (localization_server) StdoutLine: {'line': b'writing ../../../build/localization_server/localization_server.egg-info/PKG-INFO\n'}
+[3.919348] (nav2_new_features) StdoutLine: {'line': b'writing requirements to ../build/nav2_new_features/nav2_new_features.egg-info/requires.txt\n'}
+[3.920296] (localization_server) StdoutLine: {'line': b'writing dependency_links to ../../../build/localization_server/localization_server.egg-info/dependency_links.txt\n'}
+[3.921184] (nav2_new_features) StdoutLine: {'line': b'writing top-level names to ../build/nav2_new_features/nav2_new_features.egg-info/top_level.txt\n'}
+[3.922166] (localization_server) StdoutLine: {'line': b'writing entry points to ../../../build/localization_server/localization_server.egg-info/entry_points.txt\n'}
+[3.924107] (localization_server) StdoutLine: {'line': b'writing requirements to ../../../build/localization_server/localization_server.egg-info/requires.txt\n'}
+[3.924790] (nav2_new_features) StdoutLine: {'line': b"reading manifest file '../build/nav2_new_features/nav2_new_features.egg-info/SOURCES.txt'\n"}
+[3.925034] (localization_server) StdoutLine: {'line': b'writing top-level names to ../../../build/localization_server/localization_server.egg-info/top_level.txt\n'}
+[3.925692] (nav2_new_features) StdoutLine: {'line': b"writing manifest file '../build/nav2_new_features/nav2_new_features.egg-info/SOURCES.txt'\n"}
+[3.926878] (nav2_new_features) StdoutLine: {'line': b'running build\n'}
+[3.927111] (nav2_new_features) StdoutLine: {'line': b'running build_py\n'}
+[3.927723] (nav2_new_features) StdoutLine: {'line': b'running install\n'}
+[3.927956] (localization_server) StdoutLine: {'line': b"reading manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'\n"}
+[3.928145] (nav2_new_features) StdoutLine: {'line': b'running install_lib\n'}
+[3.928786] (localization_server) StdoutLine: {'line': b"writing manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'\n"}
+[3.929000] (localization_server) StdoutLine: {'line': b'running build\n'}
+[3.929155] (localization_server) StdoutLine: {'line': b'running build_py\n'}
+[3.929317] (localization_server) StdoutLine: {'line': b'running install\n'}
+[3.929457] (nav2_new_features) StdoutLine: {'line': b'running install_data\n'}
+[3.929584] (localization_server) StdoutLine: {'line': b'running install_lib\n'}
+[3.929934] (nav2_new_features) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.930464] (localization_server) StdoutLine: {'line': b'running install_data\n'}
+[3.931172] (localization_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.931644] (nav2_new_features) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/nav2_new_features/lib/python3.10/site-packages/nav2_new_features-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.931980] (nav2_new_features) StdoutLine: {'line': b'Copying ../build/nav2_new_features/nav2_new_features.egg-info to /home/user/ros2_ws/install/nav2_new_features/lib/python3.10/site-packages/nav2_new_features-0.0.0-py3.10.egg-info\n'}
+[3.932596] (localization_server) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.932854] (localization_server) StdoutLine: {'line': b'Copying ../../../build/localization_server/localization_server.egg-info to /home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info\n'}
+[3.933023] (nav2_new_features) StdoutLine: {'line': b'running install_scripts\n'}
+[3.933892] (localization_server) StdoutLine: {'line': b'running install_scripts\n'}
+[3.938580] (path_planner_server) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/path_planner_server/install.log'\n"}
+[3.942509] (map_server) StdoutLine: {'line': b'running egg_info\n'}
+[3.942798] (map_server) StdoutLine: {'line': b'writing ../../../build/map_server/map_server.egg-info/PKG-INFO\n'}
+[3.943076] (map_server) StdoutLine: {'line': b'writing dependency_links to ../../../build/map_server/map_server.egg-info/dependency_links.txt\n'}
+[3.944055] (map_server) StdoutLine: {'line': b'writing entry points to ../../../build/map_server/map_server.egg-info/entry_points.txt\n'}
+[3.944960] (map_server) StdoutLine: {'line': b'writing requirements to ../../../build/map_server/map_server.egg-info/requires.txt\n'}
+[3.945870] (map_server) StdoutLine: {'line': b'writing top-level names to ../../../build/map_server/map_server.egg-info/top_level.txt\n'}
+[3.949229] (map_server) StdoutLine: {'line': b"reading manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'\n"}
+[3.950734] (map_server) StdoutLine: {'line': b"writing manifest file '../../../build/map_server/map_server.egg-info/SOURCES.txt'\n"}
+[3.950939] (map_server) StdoutLine: {'line': b'running build\n'}
+[3.951058] (map_server) StdoutLine: {'line': b'running build_py\n'}
+[3.951209] (map_server) StdoutLine: {'line': b'running install\n'}
+[3.951614] (map_server) StdoutLine: {'line': b'running install_lib\n'}
+[3.953452] (map_server) StdoutLine: {'line': b'running install_data\n'}
+[3.953713] (nav2_new_features) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/nav2_new_features/install.log'\n"}
+[3.954630] (map_server) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.956663] (localization_server) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/localization_server/install.log'\n"}
+[3.956838] (map_server) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.957497] (map_server) StdoutLine: {'line': b'Copying ../../../build/map_server/map_server.egg-info to /home/user/ros2_ws/install/map_server/lib/python3.10/site-packages/map_server-0.0.0-py3.10.egg-info\n'}
+[3.958306] (map_server) StdoutLine: {'line': b'running install_scripts\n'}
+[3.972404] (path_planner_server) CommandEnded: {'returncode': 0}
+[3.981722] (map_server) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/map_server/install.log'\n"}
+[3.983534] (-) TimerEvent: {}
+[4.000390] (path_planner_server) JobEnded: {'identifier': 'path_planner_server', 'rc': 0}
+[4.003515] (nav2_new_features) CommandEnded: {'returncode': 0}
+[4.015555] (nav2_new_features) JobEnded: {'identifier': 'nav2_new_features', 'rc': 0}
+[4.017940] (localization_server) CommandEnded: {'returncode': 0}
+[4.029997] (localization_server) JobEnded: {'identifier': 'localization_server', 'rc': 0}
+[4.032862] (map_server) CommandEnded: {'returncode': 0}
+[4.043987] (map_server) JobEnded: {'identifier': 'map_server', 'rc': 0}
+[4.083628] (-) TimerEvent: {}
+[4.183841] (-) TimerEvent: {}
+[4.258018] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.283927] (-) TimerEvent: {}
+[4.323036] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.329002] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.342917] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.364954] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.384006] (-) TimerEvent: {}
+[4.391589] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.484101] (-) TimerEvent: {}
+[4.490876] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.495295] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.584187] (-) TimerEvent: {}
+[4.684419] (-) TimerEvent: {}
+[4.785241] (-) TimerEvent: {}
+[4.808969] (custom_nav2_planner_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.885452] (-) TimerEvent: {}
+[4.985847] (-) TimerEvent: {}
+[5.086156] (-) TimerEvent: {}
+[5.186463] (-) TimerEvent: {}
+[5.286780] (-) TimerEvent: {}
+[5.387169] (-) TimerEvent: {}
+[5.487493] (-) TimerEvent: {}
+[5.587848] (-) TimerEvent: {}
+[5.688183] (-) TimerEvent: {}
+[5.788495] (-) TimerEvent: {}
+[5.851429] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[5.888577] (-) TimerEvent: {}
+[5.988804] (-) TimerEvent: {}
+[6.089404] (-) TimerEvent: {}
+[6.189625] (-) TimerEvent: {}
+[6.289836] (-) TimerEvent: {}
+[6.390038] (-) TimerEvent: {}
+[6.490257] (-) TimerEvent: {}
+[6.590496] (-) TimerEvent: {}
+[6.630649] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[6.687508] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[6.690568] (-) TimerEvent: {}
+[6.790742] (-) TimerEvent: {}
+[6.890946] (-) TimerEvent: {}
+[6.991157] (-) TimerEvent: {}
+[7.091358] (-) TimerEvent: {}
+[7.191558] (-) TimerEvent: {}
+[7.291763] (-) TimerEvent: {}
+[7.391964] (-) TimerEvent: {}
+[7.470940] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found nav2_util: 1.1.6 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[7.492044] (-) TimerEvent: {}
+[7.592241] (-) TimerEvent: {}
+[7.692490] (-) TimerEvent: {}
+[7.792702] (-) TimerEvent: {}
+[7.892920] (-) TimerEvent: {}
+[7.993139] (-) TimerEvent: {}
+[8.093347] (-) TimerEvent: {}
+[8.193551] (-) TimerEvent: {}
+[8.294108] (-) TimerEvent: {}
+[8.394311] (-) TimerEvent: {}
+[8.494606] (-) TimerEvent: {}
+[8.594890] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[8.595093] (-) TimerEvent: {}
+[8.597053] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[8.695200] (-) TimerEvent: {}
+[8.795464] (-) TimerEvent: {}
+[8.824653] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.6 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[8.895546] (-) TimerEvent: {}
+[8.995773] (-) TimerEvent: {}
+[9.095988] (-) TimerEvent: {}
+[9.196194] (-) TimerEvent: {}
+[9.296396] (-) TimerEvent: {}
+[9.396600] (-) TimerEvent: {}
+[9.496803] (-) TimerEvent: {}
+[9.597009] (-) TimerEvent: {}
+[9.697244] (-) TimerEvent: {}
+[9.797452] (-) TimerEvent: {}
+[9.897681] (-) TimerEvent: {}
+[9.899268] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found nav2_core: 1.1.6 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[9.997764] (-) TimerEvent: {}
+[10.098006] (-) TimerEvent: {}
+[10.198233] (-) TimerEvent: {}
+[10.298438] (-) TimerEvent: {}
+[10.398633] (-) TimerEvent: {}
+[10.499378] (-) TimerEvent: {}
+[10.599607] (-) TimerEvent: {}
+[10.699825] (-) TimerEvent: {}
+[10.800036] (-) TimerEvent: {}
+[10.900249] (-) TimerEvent: {}
+[11.000456] (-) TimerEvent: {}
+[11.100662] (-) TimerEvent: {}
+[11.200870] (-) TimerEvent: {}
+[11.301068] (-) TimerEvent: {}
+[11.401292] (-) TimerEvent: {}
+[11.501512] (-) TimerEvent: {}
+[11.601725] (-) TimerEvent: {}
+[11.701937] (-) TimerEvent: {}
+[11.802169] (-) TimerEvent: {}
+[11.902368] (-) TimerEvent: {}
+[12.002579] (-) TimerEvent: {}
+[12.102849] (-) TimerEvent: {}
+[12.203070] (-) TimerEvent: {}
+[12.303275] (-) TimerEvent: {}
+[12.403491] (-) TimerEvent: {}
+[12.503696] (-) TimerEvent: {}
+[12.603911] (-) TimerEvent: {}
+[12.704126] (-) TimerEvent: {}
+[12.804334] (-) TimerEvent: {}
+[12.904552] (-) TimerEvent: {}
+[13.004754] (-) TimerEvent: {}
+[13.104948] (-) TimerEvent: {}
+[13.205145] (-) TimerEvent: {}
+[13.305348] (-) TimerEvent: {}
+[13.405575] (-) TimerEvent: {}
+[13.505858] (-) TimerEvent: {}
+[13.606173] (-) TimerEvent: {}
+[13.706538] (-) TimerEvent: {}
+[13.806882] (-) TimerEvent: {}
+[13.907176] (-) TimerEvent: {}
+[14.007435] (-) TimerEvent: {}
+[14.107666] (-) TimerEvent: {}
+[14.207886] (-) TimerEvent: {}
+[14.308102] (-) TimerEvent: {}
+[14.408323] (-) TimerEvent: {}
+[14.508665] (-) TimerEvent: {}
+[14.608916] (-) TimerEvent: {}
+[14.709148] (-) TimerEvent: {}
+[14.809383] (-) TimerEvent: {}
+[14.909603] (-) TimerEvent: {}
+[15.009821] (-) TimerEvent: {}
+[15.110024] (-) TimerEvent: {}
+[15.210231] (-) TimerEvent: {}
+[15.310445] (-) TimerEvent: {}
+[15.411182] (-) TimerEvent: {}
+[15.511396] (-) TimerEvent: {}
+[15.611606] (-) TimerEvent: {}
+[15.711818] (-) TimerEvent: {}
+[15.812036] (-) TimerEvent: {}
+[15.847995] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.912135] (-) TimerEvent: {}
+[15.945012] (custom_nav2_planner_plugin) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.946497] (custom_nav2_planner_plugin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.946876] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/user/ros2_ws/src/custom_nav2_planner_plugin/include\n'}
+[15.946972] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.948499] (custom_nav2_planner_plugin) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[15.948593] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[15.949934] (custom_nav2_planner_plugin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.951447] (custom_nav2_planner_plugin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.951528] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.952282] (custom_nav2_planner_plugin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.957568] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.012209] (-) TimerEvent: {}
+[16.112414] (-) TimerEvent: {}
+[16.212613] (-) TimerEvent: {}
+[16.312810] (-) TimerEvent: {}
+[16.413367] (-) TimerEvent: {}
+[16.513581] (-) TimerEvent: {}
+[16.613782] (-) TimerEvent: {}
+[16.713990] (-) TimerEvent: {}
+[16.814200] (-) TimerEvent: {}
+[16.914405] (-) TimerEvent: {}
+[17.014605] (-) TimerEvent: {}
+[17.114843] (-) TimerEvent: {}
+[17.215042] (-) TimerEvent: {}
+[17.315239] (-) TimerEvent: {}
+[17.415440] (-) TimerEvent: {}
+[17.515649] (-) TimerEvent: {}
+[17.615873] (-) TimerEvent: {}
+[17.716089] (-) TimerEvent: {}
+[17.816320] (-) TimerEvent: {}
+[17.916563] (-) TimerEvent: {}
+[18.016817] (-) TimerEvent: {}
+[18.117048] (-) TimerEvent: {}
+[18.217297] (-) TimerEvent: {}
+[18.317504] (-) TimerEvent: {}
+[18.417716] (-) TimerEvent: {}
+[18.517948] (-) TimerEvent: {}
+[18.618273] (-) TimerEvent: {}
+[18.718601] (-) TimerEvent: {}
+[18.818893] (-) TimerEvent: {}
+[18.919131] (-) TimerEvent: {}
+[19.019357] (-) TimerEvent: {}
+[19.119574] (-) TimerEvent: {}
+[19.219788] (-) TimerEvent: {}
+[19.320003] (-) TimerEvent: {}
+[19.420212] (-) TimerEvent: {}
+[19.520398] (-) TimerEvent: {}
+[19.620612] (-) TimerEvent: {}
+[19.720833] (-) TimerEvent: {}
+[19.780532] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[19.786877] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/custom_nav2_planner_plugin\n'}
+[19.820922] (-) TimerEvent: {}
+[19.824808] (custom_nav2_planner_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/straight_line_planner_core.dir/src/straight_line_planner.cpp.o\x1b[0m\n'}
+[19.921020] (-) TimerEvent: {}
+[20.021291] (-) TimerEvent: {}
+[20.121536] (-) TimerEvent: {}
+[20.221790] (-) TimerEvent: {}
+[20.322039] (-) TimerEvent: {}
+[20.422265] (-) TimerEvent: {}
+[20.522481] (-) TimerEvent: {}
+[20.622696] (-) TimerEvent: {}
+[20.722927] (-) TimerEvent: {}
+[20.823144] (-) TimerEvent: {}
+[20.923352] (-) TimerEvent: {}
+[21.023554] (-) TimerEvent: {}
+[21.123762] (-) TimerEvent: {}
+[21.223973] (-) TimerEvent: {}
+[21.324183] (-) TimerEvent: {}
+[21.424391] (-) TimerEvent: {}
+[21.524599] (-) TimerEvent: {}
+[21.625229] (-) TimerEvent: {}
+[21.725469] (-) TimerEvent: {}
+[21.825725] (-) TimerEvent: {}
+[21.926008] (-) TimerEvent: {}
+[22.026282] (-) TimerEvent: {}
+[22.126590] (-) TimerEvent: {}
+[22.226985] (-) TimerEvent: {}
+[22.327310] (-) TimerEvent: {}
+[22.427716] (-) TimerEvent: {}
+[22.528124] (-) TimerEvent: {}
+[22.628442] (-) TimerEvent: {}
+[22.728752] (-) TimerEvent: {}
+[22.829050] (-) TimerEvent: {}
+[22.929358] (-) TimerEvent: {}
+[23.030182] (-) TimerEvent: {}
+[23.130594] (-) TimerEvent: {}
+[23.231025] (-) TimerEvent: {}
+[23.331423] (-) TimerEvent: {}
+[23.431827] (-) TimerEvent: {}
+[23.532781] (-) TimerEvent: {}
+[23.633172] (-) TimerEvent: {}
+[23.733574] (-) TimerEvent: {}
+[23.833969] (-) TimerEvent: {}
+[23.934343] (-) TimerEvent: {}
+[24.034693] (-) TimerEvent: {}
+[24.135019] (-) TimerEvent: {}
+[24.235324] (-) TimerEvent: {}
+[24.335711] (-) TimerEvent: {}
+[24.436086] (-) TimerEvent: {}
+[24.536403] (-) TimerEvent: {}
+[24.636713] (-) TimerEvent: {}
+[24.737375] (-) TimerEvent: {}
+[24.837754] (-) TimerEvent: {}
+[24.938076] (-) TimerEvent: {}
+[25.038413] (-) TimerEvent: {}
+[25.138750] (-) TimerEvent: {}
+[25.239064] (-) TimerEvent: {}
+[25.339369] (-) TimerEvent: {}
+[25.439670] (-) TimerEvent: {}
+[25.539975] (-) TimerEvent: {}
+[25.640286] (-) TimerEvent: {}
+[25.740604] (-) TimerEvent: {}
+[25.840910] (-) TimerEvent: {}
+[25.941205] (-) TimerEvent: {}
+[26.041509] (-) TimerEvent: {}
+[26.141812] (-) TimerEvent: {}
+[26.242108] (-) TimerEvent: {}
+[26.342411] (-) TimerEvent: {}
+[26.442708] (-) TimerEvent: {}
+[26.543024] (-) TimerEvent: {}
+[26.630303] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_costmap_core.so\x1b[0m\n'}
+[26.643114] (-) TimerEvent: {}
+[26.743372] (-) TimerEvent: {}
+[26.789705] (custom_nav2_planner_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libstraight_line_planner_core.so\x1b[0m\n'}
+[26.843470] (-) TimerEvent: {}
+[26.943742] (-) TimerEvent: {}
+[27.043981] (-) TimerEvent: {}
+[27.144214] (-) TimerEvent: {}
+[27.244428] (-) TimerEvent: {}
+[27.344648] (-) TimerEvent: {}
+[27.444861] (-) TimerEvent: {}
+[27.545035] (-) TimerEvent: {}
+[27.645308] (-) TimerEvent: {}
+[27.745616] (-) TimerEvent: {}
+[27.845903] (-) TimerEvent: {}
+[27.946198] (-) TimerEvent: {}
+[28.046513] (-) TimerEvent: {}
+[28.099781] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'[100%] Built target my_custom_costmap_core\n'}
+[28.102003] (custom_nav2_planner_plugin) StdoutLine: {'line': b'[100%] Built target straight_line_planner_core\n'}
+[28.109492] (custom_nav2_costmap_plugin) CommandEnded: {'returncode': 0}
+[28.112369] (custom_nav2_planner_plugin) CommandEnded: {'returncode': 0}
+[28.146568] (custom_nav2_costmap_plugin) JobProgress: {'identifier': 'custom_nav2_costmap_plugin', 'progress': 'install'}
+[28.146629] (-) TimerEvent: {}
+[28.155005] (custom_nav2_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/custom_nav2_costmap_plugin'], 'cwd': '/home/user/ros2_ws/build/custom_nav2_costmap_plugin', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('PKG_CONFIG_PATH', ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/build/custom_nav2_costmap_plugin'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', 'True'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25137'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner'), ('SOURCE_ROS2_WS', ''), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[28.156745] (custom_nav2_planner_plugin) JobProgress: {'identifier': 'custom_nav2_planner_plugin', 'progress': 'install'}
+[28.157129] (custom_nav2_planner_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/custom_nav2_planner_plugin'], 'cwd': '/home/user/ros2_ws/build/custom_nav2_planner_plugin', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://1_simulation:11345'), ('PKG_CONFIG_PATH', ':/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/humble/lib/pkgconfig:/opt/ros/humble/lib/x86_64-linux-gnu/pkgconfig'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('ROBOT_HOSTNAME', ''), ('PWD', '/home/user/ros2_ws/build/custom_nav2_planner_plugin'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CMAKE_PREFIX_PATH', ':/opt/ros/humble:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_simulation'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_simulation:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/user/catkin_ws/devel/lib:/home/simulations/public_sim_ws/devel/lib:/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '0'), ('SLOT_PREFIX', '9a378a9e-8a11-4e3c-8bff-e0ac0ec7c356'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', 'True'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25137'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/bin:/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws/src/nav2_pkgs/path_planner_server/config/straightline_planner'), ('SOURCE_ROS2_WS', ''), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[28.163805] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.164491] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/lib/libcustom_nav2_costmap_plugin_core.so\n'}
+[28.164607] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/lib/libmy_custom_costmap_core.so\n'}
+[28.165411] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_nav2_costmap_plugin/lib/libmy_custom_costmap_core.so" to ""\n'}
+[28.165511] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/gradient_layer.xml\n'}
+[28.165618] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/my_custom_costmap_plugininfo.xml\n'}
+[28.165711] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/custom_nav2_costmap_plugin\n'}
+[28.165798] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/custom_nav2_costmap_plugin\n'}
+[28.166084] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.166199] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/ament_prefix_path.sh\n'}
+[28.166346] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/ament_prefix_path.dsv\n'}
+[28.166447] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/path.sh\n'}
+[28.166517] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/straight_line_plugin_info.xml\n'}
+[28.166584] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/path.dsv\n'}
+[28.166657] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.bash\n'}
+[28.166807] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/lib/libstraight_line_planner_core.so\n'}
+[28.166970] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.sh\n'}
+[28.167039] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.zsh\n'}
+[28.167108] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.dsv\n'}
+[28.167223] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/package.dsv\n'}
+[28.167306] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/packages/custom_nav2_costmap_plugin\n'}
+[28.167392] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/custom_nav2_costmap_plugin\n'}
+[28.167459] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/cmake/custom_nav2_costmap_pluginConfig.cmake\n'}
+[28.167517] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/cmake/custom_nav2_costmap_pluginConfig-version.cmake\n'}
+[28.167584] (custom_nav2_costmap_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/package.xml\n'}
+[28.167685] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/custom_nav2_planner_plugin/lib/libstraight_line_planner_core.so" to ""\n'}
+[28.167749] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/include/\n'}
+[28.167914] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/include//custom_nav2_planner_plugin\n'}
+[28.168220] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/include//custom_nav2_planner_plugin/straight_line_planner.hpp\n'}
+[28.172293] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/library_path.sh\n'}
+[28.172521] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/library_path.dsv\n'}
+[28.172841] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/package_run_dependencies/custom_nav2_planner_plugin\n'}
+[28.173085] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/parent_prefix_path/custom_nav2_planner_plugin\n'}
+[28.173238] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/ament_prefix_path.sh\n'}
+[28.173332] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/ament_prefix_path.dsv\n'}
+[28.173442] (custom_nav2_costmap_plugin) CommandEnded: {'returncode': 0}
+[28.173804] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/path.sh\n'}
+[28.173932] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/environment/path.dsv\n'}
+[28.174144] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.bash\n'}
+[28.175585] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.sh\n'}
+[28.175842] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.zsh\n'}
+[28.176016] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/local_setup.dsv\n'}
+[28.176261] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/package.dsv\n'}
+[28.176380] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/packages/custom_nav2_planner_plugin\n'}
+[28.176599] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/ament_index/resource_index/nav2_core__pluginlib__plugin/custom_nav2_planner_plugin\n'}
+[28.176745] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.176832] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.176907] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.176974] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/custom_nav2_planner_pluginConfig.cmake\n'}
+[28.177063] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/cmake/custom_nav2_planner_pluginConfig-version.cmake\n'}
+[28.177323] (custom_nav2_planner_plugin) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/custom_nav2_planner_plugin/share/custom_nav2_planner_plugin/package.xml\n'}
+[28.190794] (custom_nav2_planner_plugin) CommandEnded: {'returncode': 0}
+[28.242588] (custom_nav2_costmap_plugin) JobEnded: {'identifier': 'custom_nav2_costmap_plugin', 'rc': 0}
+[28.246663] (-) TimerEvent: {}
+[28.258961] (custom_nav2_planner_plugin) JobEnded: {'identifier': 'custom_nav2_planner_plugin', 'rc': 0}
+[28.260095] (-) EventReactorShutdown: {}

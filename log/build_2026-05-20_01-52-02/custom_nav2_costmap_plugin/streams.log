@@ -1,0 +1,28 @@
+[0.062s] Invoking command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_costmap_plugin -- -j8 -l8
+[0.979s] [35m[1mConsolidate compiler generated dependencies of target my_custom_costmap_core[0m
+[0.980s] [ 50%] Built target custom_nav2_costmap_plugin_core
+[0.980s] [100%] Built target my_custom_costmap_core
+[0.981s] Invoked command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_nav2_costmap_plugin -- -j8 -l8
+[1.308s] Invoking command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_costmap_plugin
+[1.316s] -- Install configuration: ""
+[1.316s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/lib/libcustom_nav2_costmap_plugin_core.so
+[1.317s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/lib/libmy_custom_costmap_core.so
+[1.317s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/gradient_layer.xml
+[1.317s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/my_custom_costmap_plugininfo.xml
+[1.317s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/custom_nav2_costmap_plugin
+[1.318s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/custom_nav2_costmap_plugin
+[1.318s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/ament_prefix_path.sh
+[1.318s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/ament_prefix_path.dsv
+[1.318s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/path.sh
+[1.318s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/environment/path.dsv
+[1.318s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.bash
+[1.318s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.sh
+[1.321s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.zsh
+[1.322s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/local_setup.dsv
+[1.322s] -- Installing: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/package.dsv
+[1.322s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/packages/custom_nav2_costmap_plugin
+[1.322s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/custom_nav2_costmap_plugin
+[1.323s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/cmake/custom_nav2_costmap_pluginConfig.cmake
+[1.323s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/cmake/custom_nav2_costmap_pluginConfig-version.cmake
+[1.323s] -- Up-to-date: /home/user/ros2_ws/install/custom_nav2_costmap_plugin/share/custom_nav2_costmap_plugin/package.xml
+[1.331s] Invoked command in '/home/user/ros2_ws/build/custom_nav2_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/path_planner_server:/home/user/ros2_ws/install/nav2_new_features:/home/user/ros2_ws/install/map_server:/home/user/ros2_ws/install/localization_server _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_nav2_costmap_plugin

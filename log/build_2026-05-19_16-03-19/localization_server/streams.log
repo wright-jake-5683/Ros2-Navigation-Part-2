@@ -1,0 +1,40 @@
+[1.907s] Invoking command in '/home/user/ros2_ws/src/nav2_pkgs/localization_server': PYTHONPATH=/home/user/ros2_ws/build/localization_server/prefix_override:/home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/localization_server build --build-base /home/user/ros2_ws/build/localization_server/build install --record /home/user/ros2_ws/build/localization_server/install.log --single-version-externally-managed
+[2.304s] running egg_info
+[2.304s] creating ../../../build/localization_server/localization_server.egg-info
+[2.304s] writing ../../../build/localization_server/localization_server.egg-info/PKG-INFO
+[2.305s] writing dependency_links to ../../../build/localization_server/localization_server.egg-info/dependency_links.txt
+[2.305s] writing entry points to ../../../build/localization_server/localization_server.egg-info/entry_points.txt
+[2.305s] writing requirements to ../../../build/localization_server/localization_server.egg-info/requires.txt
+[2.305s] writing top-level names to ../../../build/localization_server/localization_server.egg-info/top_level.txt
+[2.305s] writing manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[2.307s] reading manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[2.308s] writing manifest file '../../../build/localization_server/localization_server.egg-info/SOURCES.txt'
+[2.308s] running build
+[2.308s] running build_py
+[2.308s] creating /home/user/ros2_ws/build/localization_server/build
+[2.309s] creating /home/user/ros2_ws/build/localization_server/build/lib
+[2.309s] creating /home/user/ros2_ws/build/localization_server/build/lib/localization_server
+[2.309s] copying localization_server/__init__.py -> /home/user/ros2_ws/build/localization_server/build/lib/localization_server
+[2.309s] running install
+[2.309s] running install_lib
+[2.310s] creating /home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[2.310s] copying /home/user/ros2_ws/build/localization_server/build/lib/localization_server/__init__.py -> /home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server
+[2.310s] byte-compiling /home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server/__init__.py to __init__.cpython-310.pyc
+[2.311s] running install_data
+[2.311s] creating /home/user/ros2_ws/install/localization_server/share/ament_index
+[2.312s] creating /home/user/ros2_ws/install/localization_server/share/ament_index/resource_index
+[2.313s] creating /home/user/ros2_ws/install/localization_server/share/ament_index/resource_index/packages
+[2.313s] copying resource/localization_server -> /home/user/ros2_ws/install/localization_server/share/ament_index/resource_index/packages
+[2.313s] copying package.xml -> /home/user/ros2_ws/install/localization_server/share/localization_server
+[2.313s] creating /home/user/ros2_ws/install/localization_server/share/localization_server/launch
+[2.313s] copying launch/localization.launch.py -> /home/user/ros2_ws/install/localization_server/share/localization_server/launch
+[2.313s] creating /home/user/ros2_ws/install/localization_server/share/localization_server/config
+[2.314s] copying config/amcl_barista_demo.yaml -> /home/user/ros2_ws/install/localization_server/share/localization_server/config
+[2.314s] copying config/amcl_config.yaml -> /home/user/ros2_ws/install/localization_server/share/localization_server/config
+[2.314s] creating /home/user/ros2_ws/install/localization_server/share/localization_server/rviz_config
+[2.314s] copying rviz_config/localization.rviz -> /home/user/ros2_ws/install/localization_server/share/localization_server/rviz_config
+[2.314s] running install_egg_info
+[2.315s] Copying ../../../build/localization_server/localization_server.egg-info to /home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages/localization_server-0.0.0-py3.10.egg-info
+[2.316s] running install_scripts
+[2.339s] writing list of installed files to '/home/user/ros2_ws/build/localization_server/install.log'
+[2.376s] Invoked command in '/home/user/ros2_ws/src/nav2_pkgs/localization_server' returned '0': PYTHONPATH=/home/user/ros2_ws/build/localization_server/prefix_override:/home/user/ros2_ws/install/localization_server/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/localization_server build --build-base /home/user/ros2_ws/build/localization_server/build install --record /home/user/ros2_ws/build/localization_server/install.log --single-version-externally-managed
